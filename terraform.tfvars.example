@@ -1,0 +1,6 @@
+# Copy to terraform.tfvars and change if needed. All values have defaults.
+aws_region     = "eu-west-2"
+aws_profile    = "default"
+function_name  = "notes-service"
+table_name     = "Notes"
+lambda_runtime = "python3.14"
